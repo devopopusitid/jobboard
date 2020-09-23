@@ -1,9 +1,12 @@
+wp-config.php
+wp-config-sample.php
+
 # ignore everything in the root except the "wp-content" directory.
 !wp-content/
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
-wp-content/*
+# wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
