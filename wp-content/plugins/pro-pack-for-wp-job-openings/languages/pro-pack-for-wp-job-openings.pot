@@ -1,0 +1,614 @@
+# Copyright (C) 2020 Pro Pack for WP Job Openings
+# This file is distributed under the same license as the Pro Pack for WP Job Openings package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pro Pack for WP Job Openings\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: AWSM innovations <hello@awsm.in>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pro-pack.php:120
+msgid "Activate"
+msgstr ""
+
+#: pro-pack.php:130
+msgid "Install"
+msgstr ""
+
+#: pro-pack.php:137
+msgid "Update"
+msgstr ""
+
+#: pro-pack.php:152
+msgid "WP Job Openings"
+msgstr ""
+
+#: pro-pack.php:153, pro-pack.php:299
+msgid "Pro Pack for WP Job Openings"
+msgstr ""
+
+#. translators: %1$s: main plugin, %2$s: current plugin, %3$s: plugin activation link, %4$s: line break
+#: pro-pack.php:156
+msgid "The plugin %2$s needs the plugin %1$s active. %4$s Please %3$s %1$s"
+msgstr ""
+
+#. translators: %1$s: main plugin, %2$s: current plugin, %3$s: minimum required version of the main plugin, %4$s: plugin updation link
+#: pro-pack.php:159
+msgid "%2$s plugin requires %1$s version %3$s. Please %4$s %1$s plugin to the latest version."
+msgstr ""
+
+#. translators: %1$s: Opening anchor tag, %2$s: closing anchor tag
+#: pro-pack.php:241
+msgid "Please %1$s activate your copy%2$s of Pro Pack for WP Job Openings to receive automatic updates."
+msgstr ""
+
+#: pro-pack.php:255
+msgid "Dismiss"
+msgstr ""
+
+#: pro-pack.php:274
+msgid "Error in dismissing the notice. Please try again!"
+msgstr ""
+
+#: pro-pack.php:279
+msgid "You don&#8217;t have the permission to dismiss this notice!"
+msgstr ""
+
+#. translators: %1$s: plugin latest version, %2$s: plugin name, %3$s: html content
+#: pro-pack.php:301
+msgid "There is a new version %1$s of %2$s available. %3$s"
+msgstr ""
+
+#: pro-pack.php:348
+msgid "Export Applications"
+msgstr ""
+
+#: pro-pack.php:356
+msgid "You are not authorized to make this request!"
+msgstr ""
+
+#: pro-pack.php:360
+msgid "Invalid request!"
+msgstr ""
+
+#: pro-pack.php:389
+msgid "Application ID"
+msgstr ""
+
+#: pro-pack.php:390
+msgid "Applicant Name"
+msgstr ""
+
+#: pro-pack.php:391, inc/class-awsm-job-openings-pro-settings.php:171
+msgid "Email"
+msgstr ""
+
+#: pro-pack.php:392
+msgid "Job ID"
+msgstr ""
+
+#: pro-pack.php:393
+msgid "Job Title"
+msgstr ""
+
+#: pro-pack.php:394
+msgid "Applied on"
+msgstr ""
+
+#: pro-pack.php:409, inc/class-awsm-job-openings-pro-main.php:32
+msgid "Status"
+msgstr ""
+
+#: pro-pack.php:447
+msgid "NA"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-form.php:225
+msgid "Please fill the required field."
+msgstr ""
+
+#. translators: %s: application form field label
+#: inc/class-awsm-job-openings-pro-form.php:227
+msgid "%s is required."
+msgstr ""
+
+#. translators: %s: application form field type
+#: inc/class-awsm-job-openings-pro-form.php:281
+msgid "Please select %s."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:33
+msgid "Rating"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:41, inc/class-awsm-job-openings-pro-main.php:124
+msgctxt "post status"
+msgid "New"
+msgstr ""
+
+#. translators: %s: posts count with publish status
+#: inc/class-awsm-job-openings-pro-main.php:43
+msgid "New <span class=\"count\">(%s)</span>"
+msgid_plural "New <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-awsm-job-openings-pro-main.php:47
+msgctxt "post status"
+msgid "Trashed"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-main.php:52
+msgctxt "post status"
+msgid "In Progress"
+msgstr ""
+
+#. translators: %s: posts count with progress status
+#: inc/class-awsm-job-openings-pro-main.php:54
+msgid "In Progress <span class=\"count\">(%s)</span>"
+msgid_plural "In Progress <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-awsm-job-openings-pro-main.php:57
+msgctxt "post status"
+msgid "Shortlisted"
+msgstr ""
+
+#. translators: %s: posts count with shortlisted status
+#: inc/class-awsm-job-openings-pro-main.php:59
+msgid "Shortlisted <span class=\"count\">(%s)</span>"
+msgid_plural "Shortlisted <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-awsm-job-openings-pro-main.php:62
+msgctxt "post status"
+msgid "Rejected"
+msgstr ""
+
+#. translators: %s: posts count with rejected status
+#: inc/class-awsm-job-openings-pro-main.php:64
+msgid "Rejected <span class=\"count\">(%s)</span>"
+msgid_plural "Rejected <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-awsm-job-openings-pro-main.php:67
+msgctxt "post status"
+msgid "Selected"
+msgstr ""
+
+#. translators: %s: posts count with selected status
+#: inc/class-awsm-job-openings-pro-main.php:69
+msgid "Selected <span class=\"count\">(%s)</span>"
+msgid_plural "Selected <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:28
+msgid "CC Email Notifications"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:31
+msgid "Actions"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:32
+msgid "Notes"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:33
+msgid "Activity Log"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:34
+msgid "Emails"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:105
+msgid "Invalid Job Application ID"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:108
+msgid "You do not have sufficient permissions to edit job applications!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:191
+msgid "Error sending mail!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:203
+msgid "Subject and mail content required!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:234
+msgid "Your message has been successfully sent to the applicant."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:281
+msgid "Error in submitting notes!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:327
+msgid "Error in deleting notes!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:336
+msgid "Invalid key supplied!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:342
+msgid "Invalid timestamp supplied!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:346
+msgid "No notes to delete!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-meta.php:422
+msgid "Remove Note"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:31
+msgid "Shortcodes"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:32
+msgid "License"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:50
+msgid "General"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:53
+msgid "Templates"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:58, inc/templates/settings/form-builder.php:19
+msgid "Form Builder"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:170
+msgid "Text"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:172
+msgid "Number"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:173
+msgid "Phone"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:174
+msgid "Textarea"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:175
+msgid "Dropdown"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:176
+msgid "Radio"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:177
+msgid "Checkbox"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:178
+msgid "Resume"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:179
+msgid "Photo"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:180
+msgid "File"
+msgstr ""
+
+#. translators: %s: form field type
+#. translators: %s: form field type
+#: inc/class-awsm-job-openings-pro-settings.php:218, inc/templates/settings/form-builder.php:72
+msgid "Sorry! You can only have one %s field"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:249
+msgid "\"Label\" cannot be empty!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:258
+msgid "Please enter options for the selected field type."
+msgstr ""
+
+#. translators: %s: template tag
+#: inc/class-awsm-job-openings-pro-settings.php:275
+msgid "%s is a Reserved Template Tag! Please specify a different value."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:279, inc/templates/settings/form-builder.php:77
+msgid "The template tag should only contain alphanumeric, latin characters separated by hyphen/underscore"
+msgstr ""
+
+#. translators: %s: template tag
+#: inc/class-awsm-job-openings-pro-settings.php:293
+msgid "Template Tag %s is already in use! Please specify a different value."
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:341
+msgid "Template Name cannot be empty!"
+msgstr ""
+
+#. translators: %s: user supplied template name
+#: inc/class-awsm-job-openings-pro-settings.php:351
+msgid "Template Name: \"%s\" already exists!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:381
+msgid "Invalid Envato purchase key!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:386
+msgid "License key cannot be empty!"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:395
+msgid "Field Options:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:396
+msgid "Please enter options separated by commas"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:414
+msgid "Attach the file with email notifications"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:423
+msgid "Template Tag:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:424
+msgid "Template Tag to be used in the notification"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:437
+msgid "New input field"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:476
+msgid "Field Type:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:501, inc/templates/settings/form-builder.php:105
+msgid "Label:"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:523
+msgid "Required Field"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:528
+msgid "Delete"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:532, inc/templates/settings/form-builder.php:110
+msgid "Close"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:546
+msgid "(Not Saved...)"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:547
+msgid "New Template"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:571
+msgid "Template Name"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:576, inc/templates/meta/application-email.php:44
+msgid "Subject "
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:580
+msgid "Content "
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:586
+msgid "Save"
+msgstr ""
+
+#: inc/class-awsm-job-openings-pro-settings.php:587
+msgid "Delete template"
+msgstr ""
+
+#. translators: %s: application rating
+#: inc/templates/meta/activity-log.php:51
+msgid "%s-star rated"
+msgstr ""
+
+#: inc/templates/meta/activity-log.php:54
+msgid "Viewed"
+msgstr ""
+
+#: inc/templates/meta/activity-log.php:57
+msgid "Submitted"
+msgstr ""
+
+#: inc/templates/meta/activity-log.php:62
+msgid "Sent email to the applicant"
+msgstr ""
+
+#: inc/templates/meta/application-actions.php:21
+msgid "Application Status"
+msgstr ""
+
+#. translators: %s: application submission time
+#: inc/templates/meta/application-actions.php:35
+msgid "Submitted on: %s"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:11
+msgid "New Mail"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:12
+msgid "Sent Mails"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:19
+msgid "Email template"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:21
+msgid "No template"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:36
+msgid "Applicant"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:40
+msgid "CC:"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:53
+msgid "Sending..."
+msgstr ""
+
+#: inc/templates/meta/application-email.php:53
+msgid "Send"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:67
+msgid "System"
+msgstr ""
+
+#: inc/templates/meta/application-email.php:78
+msgid "No mails to show!"
+msgstr ""
+
+#: inc/templates/meta/application-notes.php:3
+msgid "Write your notes here..."
+msgstr ""
+
+#: inc/templates/meta/forward-mail.php:12
+msgid "Emails to CC	the application notifications"
+msgstr ""
+
+#: inc/templates/meta/forward-mail.php:14
+msgid "A copy of notifications for this application will be sent to the emails you submit."
+msgstr ""
+
+#: inc/templates/settings/form-builder.php:27, inc/templates/settings/form-builder.php:30
+msgid "Click to edit"
+msgstr ""
+
+#: inc/templates/settings/form-builder.php:27
+msgid "Form Title"
+msgstr ""
+
+#: inc/templates/settings/form-builder.php:30
+msgid "(Optional description)"
+msgstr ""
+
+#: inc/templates/settings/form-builder.php:96
+msgid "Submit Button"
+msgstr ""
+
+#: inc/templates/settings/form-builder.php:116
+msgid "Add new Field"
+msgstr ""
+
+#: inc/templates/settings/license.php:24
+msgid "Envato purchase key"
+msgstr ""
+
+#: inc/templates/settings/license.php:34
+msgid "Obtain purchase key"
+msgstr ""
+
+#: inc/templates/settings/license.php:39
+msgid "How to get it ?"
+msgstr ""
+
+#: inc/templates/settings/mail-templates.php:27
+msgid "Add new template"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:18
+msgid "Generate shortcode"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:25
+msgid "Job listing"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:31
+msgid "All Jobs"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:37
+msgid "Filtered list of jobs"
+msgstr ""
+
+#. translators: %s: specification label
+#: inc/templates/settings/shortcodes.php:54
+msgid "Filter by %s"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:75
+msgid "Check the options only if you want to filter the listing by specification(s)."
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:81
+msgid "Filters"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:83
+msgid "Enable job filters"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:84
+msgid "Checking this option enables filter option"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:88
+msgid "Number of jobs to show"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:91
+msgid "Default Number of Job Listings to display"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:95
+msgid "Pagination"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:100
+msgid "Enable \"Load More\""
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:102
+msgid "Unchecking this option disables pagination for the listing"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:113
+msgid "Generate Shortcode"
+msgstr ""
+
+#: inc/templates/settings/shortcodes.php:119
+msgid "Your shortcode"
+msgstr ""
