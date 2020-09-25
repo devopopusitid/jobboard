@@ -8,8 +8,9 @@ wp-config-sample.php
 # "mu-plugins", "plugins", "themes" directory
 # wp-content/*
 !wp-content/mu-plugins/
-!wp-content/plugins/
 !wp-content/themes/
+wp-content/plugins/pro-pack-for-wp-job-openings
+
 
 # ignore these plugins
 # wp-content/plugins/hello.php
